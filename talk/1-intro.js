@@ -1,3 +1,8 @@
+// Online:
+
+// github.com/TatumCreative/talk-killing-this
+
+
 function Talk( greeting ) {
 	this.greeting = greeting
 	$('#start').click( this.start.bind(this) );
