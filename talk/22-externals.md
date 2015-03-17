@@ -1,20 +1,15 @@
-# Internals
+# Externals
 
-Internals are a collection of functions and other immutable data that are used internally for your module.
+`new Something()` returns an object
 
-### OO Patterns:
+# Do this yourself
 
- * `new Constructor()` patterns discourage pure functions
+	function createLogger() {
+		
+		return {
+			message   : function( msg ) {},
+			deleteLog : function() {}
+		}
+	}
 
- * Side-effects are hard to spot in OO code
-
- * There is a reluctance to create free-floating functions in OO code
-
-
-### Using internals:
-
- * Internal functions make it easy to understand inputs and outputs
-
- * Functions are cheap to create, and don't clutter the external interface
-
- * Much easier to see what function has access to change state
+Be purposeful on what gets exposed. Look at it like designing an interface.

@@ -14,7 +14,7 @@ function Logger( msg ) {
 		// error!
 		this.log()
 		
-	})
+	}.bind(this))
 	
 }
  

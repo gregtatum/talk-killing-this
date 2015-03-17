@@ -8,8 +8,10 @@ Logger.prototype.log = function() {
 	console.log( this.count, this.msg )
 }
 
-var logger = new Logger("A typical Object Oriented logger")
+var loggerA = new Logger("A typical Object Oriented logger - Logger A")
+var loggerB = new Logger("Logger B")
 
-logger.log()
-logger.log()
-logger.log()
+loggerA.log()
+loggerA.log()
+loggerB.log()
+loggerA.log()

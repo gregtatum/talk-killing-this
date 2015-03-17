@@ -1,6 +1,4 @@
-// Online:
-
-// github.com/TatumCreative/talk-killing-this
+// Online: github.com/TatumCreative/talk-killing-this
 
 
 function Talk( greeting ) {
